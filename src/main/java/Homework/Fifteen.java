@@ -22,13 +22,13 @@ public class Fifteen {
        return names[names.length-1];
      }
 //    // Question 5
-//    public static String getSecondToLastElement(String[] names) {
-//        return null;
-//    }
+    public static String getSecondToLastElement(String[] names) {
+        return names[names.length - 2];
+    }
 //   // Question 6
-//    public static int getSum(int[] ints) {
-//        return 0;
-//    }
+    public static int getSum(int[] ints) {
+        return 0;
+    }
 
     public static void main(String[] args) {
 
@@ -38,9 +38,10 @@ public class Fifteen {
         System.out.println(getSecondToLastIndex(names));
         System.out.println(getFirstElement(names));
         System.out.println(getLastElement(names));
-//        System.out.println(names[0]);
-//        System.out.println(names[names.length-1]);
-//        System.out.println(names[4]);
+        System.out.println(getSecondToLastElement(names));
+
+
+
 
 
 
