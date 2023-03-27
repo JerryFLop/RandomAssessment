@@ -38,8 +38,24 @@ public class Fifteen {
         return sum;
     }
 
+   // Question 7
+    public static int getAverage(int[] ints) {
+        int sum = 0;
+        int i;
+        for( i = 0; i < ints.length; i++){
+             sum = sum + ints[i];}
+        int Average = sum / ints.length;
+
+        return Average;
+    }
+    //Question 8
+    public static int extractAllOddNumbers(int[] numbers) {
 
 
+
+
+        return;
+    }
 
 
 
@@ -53,6 +69,7 @@ public class Fifteen {
         System.out.println(getLastElement(names));
         System.out.println(getSecondToLastElement(names));
         System.out.println(getSum(nums));
+        System.out.println(getAverage(nums));
 
 
 
