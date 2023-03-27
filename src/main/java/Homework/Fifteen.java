@@ -14,31 +14,45 @@ public class Fifteen {
     }
 //    //Question 3
     public static String getFirstElement(String[] names) {
+
         return names[0];
     }
 //    // Question 4
    public static String getLastElement(String[] names) {
-
+     if(names == null || names.length == 0){}
        return names[names.length-1];
      }
 //    // Question 5
     public static String getSecondToLastElement(String[] names) {
-        return names[names.length - 2];
+        if(names.length >= 2){
+        }
+        return names[names.length-2];
     }
 //   // Question 6
     public static int getSum(int[] ints) {
-        return 0;
+        int sum = 0;
+        int i;
+        for( i = 0; i < ints.length; i++){
+             sum += ints[i];
+        }
+        return sum;
     }
+
+
+
+
+
 
     public static void main(String[] args) {
 
-        String[] names = {"Martin", "JOhn", "jimmy", "jeff", "casey", "david"};
+        String[] names = {"Mark","Martin", "JOhn", "jimmy", "jeff", "casey", "david","jeremiah"};
         int[] nums = {1,2,3,4,5,6,7,8,9,10};
         System.out.println(getLastIndex(names));
         System.out.println(getSecondToLastIndex(names));
         System.out.println(getFirstElement(names));
         System.out.println(getLastElement(names));
         System.out.println(getSecondToLastElement(names));
+        System.out.println(getSum(nums));
 
 
 
