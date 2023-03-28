@@ -52,11 +52,9 @@ public class Fifteen {
     public static int extractAllOddNumbers(int[] numbers) {
 
 
+        return null;
 
-
-        return;
     }
-
 
 
     public static void main(String[] args) {
@@ -70,7 +68,7 @@ public class Fifteen {
         System.out.println(getSecondToLastElement(names));
         System.out.println(getSum(nums));
         System.out.println(getAverage(nums));
-
+        System.out.println(extractAllOddNumbers(nums));
 
 
 
